@@ -48,8 +48,8 @@ Compared to the baseline state-of-the-art GoEmotions model, the MoodiFY Two-Stag
 ## Repository Structure
 
 ```text
-├── 01_Sarcasm_Gatekeeper_Tuning.ipynb  # RoBERTa dataset formatting & fine-tuning script
-├── 02_Neural_Fusion_Pipeline.ipynb     # Keras MLP training, DeepFace integration & Figure generation
+├── Model-Making.ipynb  # RoBERTa dataset formatting & fine-tuning script
+├── NLP-Fine-Tuning + Visual Representation.ipynb     # Keras MLP training, DeepFace integration & Figure generation
 ├── dataset.csv                         # Spotify acoustic features database
 ├── fig1_real_confusion_matrix.png      # Output evaluation metric
 ├── fig2_real_training_curve.png        # Output evaluation metric
