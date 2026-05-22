@@ -2,8 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange?logo=tensorflow)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-yellow?logo=huggingface)
-![Gradio](https://img.shields.io/badge/Gradio-Web%20App-red)
 
 **Author:** Antonius Sebastian Gunadi  
 **Institution:** Universitas Bina Nusantara (Binus) - Master of Information Technology  
@@ -11,7 +9,7 @@
 
 ---
 
-## 📌 Abstract & Overview
+## Abstract & Overview
 Standard emotion-based recommender systems typically utilize unimodal or early-fusion multimodal architectures. However, these systems frequently fail when users exhibit **modality incongruity**, such as the "Joker Effect" (e.g., expressing sarcastic joy in text while experiencing frustration visually). 
 
 **MoodiFY** proposes a novel **Late Fusion Architecture** designed to intercept and resolve these contradictory affective cues. By mapping user emotion to Russell’s Circumplex Model (Valence and Arousal), this system extracts target coordinates to query a Spotify audio feature dataset for highly accurate, context-aware music recommendations.
@@ -23,7 +21,7 @@ Standard emotion-based recommender systems typically utilize unimodal or early-f
 
 ---
 
-## 📊 Methodology & Results
+## Methodology & Results
 
 ### 1. Defeating Modality Incongruity
 The Sarcasm Gatekeeper fundamentally alters the data flow by prioritizing precision over naive literal sentiment. Tested on a 4,000-sample conversational dataset, the Two-Stage Pipeline successfully caught 97% of sarcastic inputs (Recall) and filtered out false positives.
@@ -47,7 +45,7 @@ Compared to the baseline state-of-the-art GoEmotions model, the MoodiFY Two-Stag
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── 01_Sarcasm_Gatekeeper_Tuning.ipynb  # RoBERTa dataset formatting & fine-tuning script
